@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "M4bIVYZLC5Ct/A68sTu2qtSgEsTlwjq2Q//OKOGI7EmJtyrHrSnWwRBsU9bLd7s6gPYUXv0gJL9PSNmWoKrR2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a.hamidi\\source\\repos\\ConfigManeger\\AhmadFramWork\\AhFramWork.Application\\AhFramWork.Application.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.2.164/NugetServer/Nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
