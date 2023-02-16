@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\AhFramWork.WebApi.props" />
-</Project>

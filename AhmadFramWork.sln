@@ -15,15 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructures", "Infrastr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{95BF877D-1609-4FDE-8D8E-BE6583F23CE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhFramWork.Domain", "AhFramWork.Domain\AhFramWork.Domain.csproj", "{4833319D-78D3-491E-B555-0723DB260849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhFramWork.Domain", "AhFramWork.Domain\AhFramWork.Domain.csproj", "{4833319D-78D3-491E-B555-0723DB260849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhFramWork.Application", "AhFramWork.Application\AhFramWork.Application.csproj", "{E8968127-E370-4FB3-83A4-DAF4C0A5939E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhFramWork.Application", "AhFramWork.Application\AhFramWork.Application.csproj", "{E8968127-E370-4FB3-83A4-DAF4C0A5939E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhFramWork.Infrastructure", "AhFramWork.Infrastructure\AhFramWork.Infrastructure.csproj", "{69C8DA60-EA23-430B-9A37-68EF023FF06C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhFramWork.Infrastructure", "AhFramWork.Infrastructure\AhFramWork.Infrastructure.csproj", "{69C8DA60-EA23-430B-9A37-68EF023FF06C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhFramWork.Persistance", "AhFramWork.Persistance\AhFramWork.Persistance.csproj", "{F60A2BE6-02E3-4A2D-A98F-019070D15E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhFramWork.WebApi", "AhFramWork.WebApi\AhFramWork.WebApi.csproj", "{0C9FC528-8E46-4287-B4BF-96465CD1298B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AhFramWork.WebApi", "AhFramWork.WebApi\AhFramWork.WebApi.csproj", "{0C9FC528-8E46-4287-B4BF-96465CD1298B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +56,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{C873CB62-C1AD-4B36-A908-F48A4A47F3A0} = {021D747D-B6D8-4885-8E3A-D59BD1DB6593}
 		{151C7DF2-CB2A-40FE-8541-CAE4D624D483} = {021D747D-B6D8-4885-8E3A-D59BD1DB6593}
 		{49CCB4E7-3C08-4DAA-B2A2-E82720EC29B1} = {021D747D-B6D8-4885-8E3A-D59BD1DB6593}
 		{95BF877D-1609-4FDE-8D8E-BE6583F23CE7} = {021D747D-B6D8-4885-8E3A-D59BD1DB6593}

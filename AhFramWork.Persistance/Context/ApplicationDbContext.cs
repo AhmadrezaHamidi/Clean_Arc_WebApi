@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AhFramWork.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,13 +22,8 @@ namespace AhFramWork.Persistance.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
-            modelBuilder.Entity<TestEntity>().HasData(
-                new TestEntity() { Id = Guid.NewGuid(), Name = "Pen", Value = 10, Quantity = 100 },
-                new TestEntity() { Id = Guid.NewGuid(), Name = "Paper A4", Value = 1, Quantity = 500 },
-                new TestEntity() { Id = Guid.NewGuid(), Name = "Book", Value = 40, Quantity = 400 });
-
             base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         }
     }
 }
