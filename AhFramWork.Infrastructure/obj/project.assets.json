@@ -45,35 +45,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a.hamidi\\.nuget\\packages\\": {}
+    "/Users/ahmadhfr/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.hamidi\\source\\repos\\ConfigManeger\\AhmadFramWork\\AhFramWork.Infrastructure\\AhFramWork.Infrastructure.csproj",
+      "projectUniqueName": "/Users/ahmadhfr/Documents/GITHUb/Clean_Arc_WebApi/AhFramWork.Infrastructure/AhFramWork.Infrastructure.csproj",
       "projectName": "AhFramWork.Infrastructure",
-      "projectPath": "C:\\Users\\a.hamidi\\source\\repos\\ConfigManeger\\AhmadFramWork\\AhFramWork.Infrastructure\\AhFramWork.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\a.hamidi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.hamidi\\source\\repos\\ConfigManeger\\AhmadFramWork\\AhFramWork.Infrastructure\\obj\\",
+      "projectPath": "/Users/ahmadhfr/Documents/GITHUb/Clean_Arc_WebApi/AhFramWork.Infrastructure/AhFramWork.Infrastructure.csproj",
+      "packagesPath": "/Users/ahmadhfr/.nuget/packages/",
+      "outputPath": "/Users/ahmadhfr/Documents/GITHUb/Clean_Arc_WebApi/AhFramWork.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\a.hamidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ahmadhfr/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://192.168.2.164/NugetServer/Nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\a.hamidi\\source\\repos\\ConfigManeger\\AhmadFramWork\\AhFramWork.Application\\AhFramWork.Application.csproj": {
-              "projectPath": "C:\\Users\\a.hamidi\\source\\repos\\ConfigManeger\\AhmadFramWork\\AhFramWork.Application\\AhFramWork.Application.csproj"
+            "/Users/ahmadhfr/Documents/GITHUb/Clean_Arc_WebApi/AhFramWork.Application/AhFramWork.Application.csproj": {
+              "projectPath": "/Users/ahmadhfr/Documents/GITHUb/Clean_Arc_WebApi/AhFramWork.Application/AhFramWork.Application.csproj"
             }
           }
         }
@@ -98,21 +95,23 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.11, 6.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.2.164/NugetServer/Nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }

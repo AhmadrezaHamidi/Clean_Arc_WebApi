@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace AhFramWork.Domain.Common
 {
     public class BaseEntity
@@ -13,4 +14,6 @@ namespace AhFramWork.Domain.Common
         public DateTime CreatedAt { get; set; }
         public DateTime? LastUpdate { get; set; }
     }
+  
+
 }

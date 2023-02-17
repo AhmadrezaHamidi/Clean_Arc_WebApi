@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EmMPRncTjdk0AIPeafwZ3IWgp/sDQPdQ5DgI6Avgs+8D0Ew/qIj55XdQ4ULKstSOGAtuNM6G7EKXB/3/zP8Lvg==",
+  "dgSpecHash": "Q3nEMAL+pmidnM4mFfswitxPt8Unru0xheqsljN0CZ2nAjzM+vXVWIMt/Nh7j6xfKvRH6X5Mueh8YLE8Mb/HkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.hamidi\\source\\repos\\ConfigManeger\\AhmadFramWork\\AhFramWork.Domain\\AhFramWork.Domain.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.2.164/NugetServer/Nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "projectFilePath": "/Users/ahmadhfr/Documents/GITHUb/Clean_Arc_WebApi/AhFramWork.Domain/AhFramWork.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/ahmadhfr/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "/Users/ahmadhfr/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
 }

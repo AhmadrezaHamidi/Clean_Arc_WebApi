@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{0C9FC528-8E46-4287-B4BF-96465CD1298B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Src.Presentation.AhFramWork.WebApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AhFramWork.Persistances/UnitOfWork/UnitOfWork.cs">
+    <Files>
+      <File FileName="AhFramWork.WebApi/Controllers/TestController.cs" Line="4" Column="2" />
+      <File FileName="AhFramWork.Persistances/Class1.cs" Line="1" Column="1" />
+      <File FileName="AhFramWork.Persistances/UnitOfWork/Colllections/IEnumerablePagedListExtensions.cs" Line="16" Column="23" />
+      <File FileName="AhFramWork.Persistances/UnitOfWork/Colllections/IPagedList.cs" Line="7" Column="58" />
+      <File FileName="AhFramWork.Persistances/UnitOfWork/Colllections/IQueryablePageListExtensions.cs" Line="8" Column="58" />
+      <File FileName="AhFramWork.Persistances/UnitOfWork/Colllections/PagedList.cs" Line="1" Column="1" />
+      <File FileName="AhFramWork.Persistances/UnitOfWork/test.cs" Line="2" Column="45" />
+      <File FileName="AhFramWork.Persistances/UnitOfWork/IUnitOfWorkOfT.cs" Line="11" Column="29" />
+      <File FileName="AhFramWork.Persistances/UnitOfWork/UnitOfWork.cs" Line="45" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AhmadFramWork" expanded="True">
+            <Node name="Src" expanded="True">
+              <Node name="Core" expanded="True" />
+              <Node name="Infrastructures" expanded="True">
+                <Node name="AhFramWork.Persistances" expanded="True" selected="True">
+                  <Node name="UnitOfWork" expanded="True">
+                    <Node name="Colllections" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <DisabledProjects>
+    <String>AhFramWork.Persistance/AhFramWork.Persistance.csproj</String>
+  </DisabledProjects>
+  <MultiItemStartupConfigurations />
+</Properties>
