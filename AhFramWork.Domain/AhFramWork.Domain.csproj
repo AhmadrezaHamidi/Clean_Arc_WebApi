@@ -8,6 +8,18 @@
 
   <ItemGroup>
     <Folder Include="Common\" />
+    <Folder Include="AggregatesModel\CategoryAggregate\" />
+    <Folder Include="AggregatesModel\FeatureAggregate\" />
+    <Folder Include="AggregatesModel\FeatureAggregate\Events\" />
+    <Folder Include="AggregatesModel\ProductAggregate\" />
+    <Folder Include="AggregatesModel\ProductAggregate\Events\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="AggregatesModel\CategoryAggregate\" />
+    <None Remove="AggregatesModel\FeatureAggregate\" />
+    <None Remove="AggregatesModel\FeatureAggregate\Events\" />
+    <None Remove="AggregatesModel\ProductAggregate\" />
+    <None Remove="AggregatesModel\ProductAggregate\Events\" />
+  </ItemGroup>
 </Project>

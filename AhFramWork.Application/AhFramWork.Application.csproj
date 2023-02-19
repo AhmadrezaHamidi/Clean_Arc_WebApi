@@ -8,12 +8,26 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AhFramWork.Domain\AhFramWork.Domain.csproj" />
+    <ProjectReference Include="..\AhFramWork.Infrastructures\AhFramWork.Infrastructures.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\" />
-    <Folder Include="Features\Commands\" />
-    <Folder Include="Features\Queries\" />
+    <Folder Include="IServices\" />
+    <Folder Include="Services\" />
+    <Folder Include="Conteracts\" />
+    <Folder Include="Conteracts\Dtos\" />
+    <Folder Include="Conteracts\Common\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="IServices\" />
+    <None Remove="Services\" />
+    <None Remove="Conteracts\" />
+    <None Remove="Conteracts\Dtos\" />
+    <None Remove="Conteracts\Common\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.14" />
+  </ItemGroup>
 </Project>

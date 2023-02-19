@@ -1,7 +1,5 @@
-﻿namespace AhFramWork.Infrastructure
+﻿namespace AhFramWork.Infrastructure;
+public class Class1
 {
-    public class Class1
-    {
 
-    }
 }
