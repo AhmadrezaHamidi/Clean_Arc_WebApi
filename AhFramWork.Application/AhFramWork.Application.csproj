@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AhFramWork.Domain\AhFramWork.Domain.csproj" />
-    <ProjectReference Include="..\AhFramWork.Infrastructures\AhFramWork.Infrastructures.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="IServices\" />
     <Folder Include="Services\" />
     <Folder Include="Conteracts\" />
@@ -29,5 +24,8 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AhFramWork.Domain\AhFramWork.Domain.csproj" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using AhFramWork.Domain.AggregatesModel.FeatureAggregate;
 using AhFramWork.Domain.Common;
 

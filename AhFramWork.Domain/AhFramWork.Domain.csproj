@@ -22,4 +22,7 @@
     <None Remove="AggregatesModel\ProductAggregate\" />
     <None Remove="AggregatesModel\ProductAggregate\Events\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AhFramWork.Application\AhFramWork.Application.csproj" />
+  </ItemGroup>
 </Project>
